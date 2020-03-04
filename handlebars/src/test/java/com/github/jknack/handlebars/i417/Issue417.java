@@ -20,7 +20,7 @@ public class Issue417 extends AbstractTest {
         "  return \"Hi \"\n" +
         "    + container.escapeExpression(((helper = (helper = helpers[\"var\"] || (depth0 != null ? depth0[\"var\"] : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === \"function\" ? helper.call(depth0 != null ? depth0 : {},{\"name\":\"var\",\"hash\":{},\"data\":data}) : helper)))\n" +
         "    + \"!\";\n" +
-        "},\"useData\":true}", new Handlebars().handlebarsJsFile("/handlebars-v4.0.4.js")
+        "},\"useData\":true}", new Handlebars().handlebarsJsFile("/handlebars-v4.7.3.js")
             .compileInline("Hi {{var}}!").toJavaScript());
   }
 
