@@ -1,5 +1,5 @@
 
-  var template = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+  var template = Handlebars.template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
     return "Hi "
     + container.escapeExpression(container.lambda(depth0, depth0))
     + "!";
